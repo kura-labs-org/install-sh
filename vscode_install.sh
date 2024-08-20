@@ -16,7 +16,7 @@ sudo systemctl restart code-server@$USER
 CONFIG_PATH="$HOME/.config/code-server/config.yaml"
 
 # Write configuration to the config.yaml file
-echo "bind-addr: 0.0.0.0:8080
+echo "bind-addr: 0.0.0.0:8081
 auth: password
 password: abcd1234
 cert: false" > "$CONFIG_PATH"
